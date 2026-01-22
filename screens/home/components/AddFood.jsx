@@ -1,5 +1,5 @@
 import { Modal, Text, View, StyleSheet, Pressable, TextInput } from "react-native";
-import Button from "./Button";
+import Button from "../../../components/Button";
 import { X } from "lucide-react-native";
 import { useState } from "react";
 
