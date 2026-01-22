@@ -1,11 +1,13 @@
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import UserDetails from "./components/UserDetails";
+import DailyGoals from "./components/DailyGoals";
 
 export default function ProfileScreen(props) {
     return (
         <ScrollView contentContainerStyle={styles.body}>
             <View style={styles.card}>
                 <UserDetails />
+                <DailyGoals />
             </View>
         </ScrollView>
     )
